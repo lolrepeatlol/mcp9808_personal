@@ -1,7 +1,10 @@
 # MCP9808 Linux Kernel Driver w/ HomeKit Layer
-* A Linux kernel driver, instantiated via devicetree, for the MCP9808 temperature sensor.
+* A C-based Linux kernel driver, instantiated via devicetree, for the MCP9808 temperature sensor.
 * Temperature readings are read over I2C and written to hwmon as device temperature metrics.
-* A HAP-python layer reads these temperature readings from hwmon and broadcasts sensor metrics into Apple HomeKit, turning the Pi Zero 2 W into a Linux-based smart temperature sensor. 
+* A HAP-python layer reads these temperature readings from hwmon and broadcasts sensor metrics into Apple HomeKit, turning the Pi Zero 2 W into a Linux-based smart temperature sensor.
+
+## HomeKit screenshots
+<img width="215" height="466" alt="IMG_7659" src="https://github.com/user-attachments/assets/654f1e5d-9c6c-498d-9c3d-01b82fb21334" /> ![IMG_7658 (1)](https://github.com/user-attachments/assets/1bcd6ed3-943a-416d-92ae-635d6bb28b3f)
 
 ## Installation and setup
 
